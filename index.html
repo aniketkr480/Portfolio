@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket Kumar Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">AN</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <!-- <li><a href="#Qualification">Qualification</a></li> -->
+                <li><a href="#Projects">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home-section" id="home">
+        <div class="content">
+            <h1>Hi, I'm Aniket Kumar</h1>
+            <h3>BCA Final Year Student | Passionate About Programming & Technology</h3>
+            <p>A Final year undergraduate Computer Science student at <strong>CIMAGE College</strong>,
+                Patna</p>
+                
+            <button class="contact-button" onclick="contactMe()">Contact me</button>
+            <div class="social-icons">
+                
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/aniket-kumar-238433259/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <!-- GitHub Icon -->
+                <a href="https://github.com/aniketkr480" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://leetcode.com/your-leetcode" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="48" height="48" fill="#FFA116">
+                      <path d="M281.9 603.1c-1.5 1.9-2.9 3.6-4.3 5.3-117.4 134.6-39.5 208.1-39.5 208.1 56.8 58.4 125.6 27.8 151.8 16.4 2.5-1.1 4.9-2.3 7.3-3.7 27.7-15.6 40.4-30.7 40.4-30.7 9.2-9.8-6.6-27.1-6.6-27.1l-53.5-57.6a201.8 201.8 0 0 1-31.7-42.3 45 45 0 0 1-10.8-33.4c1-8.3 4-18.4 11.2-26.9 0 0 8.7-10.9-3.2-23.7-12-12.9-31.7-10.2-47.8 9.1zM513.1 826.6s-21.4-8.2-21.4 10.2v29.8c0 17.7 16.4 24.1 16.4 24.1h71.7c27.7 0 44.7-17.6 44.7-17.6l204.2-214.2c3.9-4.2 7.3-7.7 10.4-11.2 128.9-138.1-15.2-265.7-15.2-265.7L681 247c-12.8-11.6-22.4-15.6-22.4-15.6-13.2-3.8-24.8 6.7-24.8 6.7-21 19.7-46.2 42.9-46.2 42.9-10.4 9.6-5.4 18-5.4 18s151.6 157.3 169.1 183.1c17.6 25.8 8.2 46.3 1 54.2a96.8 96.8 0 0 1-7.5 7.4L513.1 826.6zM513.6 197c-15.8-30.5-57.5-41-57.5-41-25.3-4.2-46.3 1.6-61.7 8.7-4.1 1.8-7.8 3.7-11.1 5.8-30.4 18.7-49 44-49 44-9.6 10.4 5.4 18 5.4 18l53.4 54.6a209.7 209.7 0 0 1 32.5 44 44.4 44.4 0 0 1 7.6 32.7z" />
+                    </svg>
+                  </a>
+              </div>
+           
+        </div>
+    </section>
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="./Portfolio.jpg" alt="Aniket kumar">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <h4>My introduction</h4>
+                <p>As a third-year BCA student with a deep interest in technology, I am passionate about acquiring new skills and tackling challenges in dynamic environments. My self-motivated, proactive approach allows me to adapt quickly and excel in any task. I am eager to join a progressive organization where I can enhance my technical expertise, contribute to meaningful projects, and continue to grow both personally and professionally.
+
+                </p>
+                
+                
+                <button class="download-cv" onclick="downloadCV()">Download CV</button>
+            </div>
+        </div>
+    </section>
+    <section class="skills-section" id="skill">
+        <h2>Skills</h2>
+        <h4>My technical level</h4>
+        
+        <div class="skills-container">
+            <div class="skill-category">
+                <button class="collapsible">Programming Languages</button>
+                <div class="skill-content">
+                    <p>C</p>
+                    <p>Python (Preffered)</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JAVASCRIPT</p>
+                    <p>SQL</p>
+                </div>
+            </div>
+            
+            <div class="skill-category">
+                <button class="collapsible">Tools</button>
+                <div class="skill-content">
+                    <p>Git</p>
+                    <p>GitHub</p>
+                    <p>VScode</p>
+                    <p>Android Studio</p>
+                </div>
+            </div>
+    
+            <div class="skill-category">
+                <button class="collapsible">Subjects & Technologies
+                </button>
+                <div class="skill-content">
+                    <p>DBMS</p>
+                    <p>Operating System</p>
+                    <p>Computer Networking</p>
+                    <p>Cloud Computing with AWS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="project-container" id="Projects">
+        <h2>Projects</h2>
+        <p>Most recent work</p>
+        
+        <div class="project-card">
+            
+            
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
